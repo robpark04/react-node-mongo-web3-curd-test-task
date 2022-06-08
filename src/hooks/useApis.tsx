@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export default class UseApis {
-  private static baseURL: string = `https://161.35.49.180:3001/api`;
+  private static baseURL: string = `https://6acd-161-35-49-180.ngrok.io/api`;
 
   public static async getAll<T>(url: string): Promise<Response> {
     let res = await axios.get<Array<T>>(this.baseURL + url)

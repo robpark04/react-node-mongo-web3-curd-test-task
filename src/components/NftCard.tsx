@@ -39,7 +39,7 @@ const NftCard = ({ nft }: {
   nft: NFT;
 }) => {
 
-  const baseURL = 'https://161.35.49.180:3001';
+  const baseURL = 'https://6acd-161-35-49-180.ngrok.io';
 
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
