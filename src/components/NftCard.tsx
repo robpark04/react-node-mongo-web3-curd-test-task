@@ -39,7 +39,7 @@ const NftCard = ({ nft }: {
   nft: NFT;
 }) => {
 
-  const baseURL = 'http://161.35.49.180:2083';
+  const baseURL = 'https://161.35.49.180:3001';
 
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
