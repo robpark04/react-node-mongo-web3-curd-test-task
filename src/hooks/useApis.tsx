@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export default class UseApis {
-  private static baseURL: string = `http://localhost:3001/api`;
+  private static baseURL: string = `http://161.35.49.180:2083/api`;
 
   public static async getAll<T>(url: string): Promise<Response> {
     let res = await axios.get<Array<T>>(this.baseURL + url)
