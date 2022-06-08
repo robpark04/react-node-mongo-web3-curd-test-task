@@ -207,8 +207,8 @@ export const StyledPrimaryButton = styled(Button)`
 `
 export const StyledSecontaryButton = styled(Button)`
   position: relative;
-  background: #1B435F;
-  border: 1px solid #1B435F;
+  background: rgb(220 38 38);
+  border: 1px solid rgb(220 38 38);
   box-shadow: none;
   border-radius: 10px;
   text-align: center;
@@ -219,13 +219,13 @@ export const StyledSecontaryButton = styled(Button)`
   width: 100%;
   align-items: center;
   padding: 0.594rem;
-  color: #4afefd;
+  color: #ffffff;
   font-weight: 700;
 
   :hover {
-    background: #27618b;
+    background: rgb(185 28 28);
     box-shadow: none;
-    border: 1px solid #27618b;
+    border: 1px solid rgb(185 28 28);
   }
 `
 
